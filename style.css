@@ -1,7 +1,7 @@
 html {
   font-family: sans-serif;
   background-color: rgb(198, 216, 223);
-  color: rgb(11, 59, 76);
+  color: rgb(7, 45, 59);
 }
 
 body {
@@ -15,37 +15,56 @@ body {
   /* min-height: 10vh; */
   margin-bottom: 10vh;
   padding: 0 3vw;
-  background-color: rgb(198, 230, 241);
+  background-color: rgb(39, 95, 109);
+  color: rgb(198, 216, 223);
 }
 
+/* #content refers to the lower portion of the screen (anything that's not the header) */
 #content {
   display: flex;
 }
 
+/* #left: the left portion of #content containing profile pic + contact details*/
 #left {
   background-color: rgb(212, 226, 231);
   width: 30vw;
   text-align: center;
   margin: 0 4%;
   padding: 0 1vw;
+  /* color: black; */
 }
 
 #contact {
   text-align: left;
 }
 
+#contact .contact-info {
+  display: flex;
+}
+
+#contact .contact-icon {
+  width: 1vw;
+}
+
+#contact .contact-text {
+  margin-left: 2vw;
+}
+
 .profile-picture {
+  /* border-radius: 50% makes the image a circle */
   border-radius: 50%;
+  /* Negative margin top to get that circle to overlap the div boundaries */
   margin-top: -5vh;
   max-width: 50%;
   height: auto;
 }
 
 .icons {
-  height: 2vw;
+  /* The social media icons are in their own flexbox */
   display: flex;
   justify-content: center;
   gap: 1vw;
+  height: 2vw;
   margin-bottom: 2vh;
 }
 
@@ -57,7 +76,9 @@ body {
   text-align: left;
 }
 
+/* #right: the left portion of #content including information about me */
 #right {
+  margin: 0 4%;
   padding: 1% 2%;
   background-color: rgb(212, 226, 231);
   width: 70vw;

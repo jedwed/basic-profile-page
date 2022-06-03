@@ -3,23 +3,27 @@
   <head>
     <title>Professional profile page</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div id="header">
-      <h2>John Smith</h2>
+      <h2>Edward Qian</h2>
     </div>
     <div id="content">
       <!-- The '#content' div is a flexbox containing divs '#left' and '#right' -->
       <!-- The left portion of the profile page -->
       <div id="left">
         <img class="profile-picture" src="img/profile.png" />
-        <h1>John Smith</h1>
+        <h1>Edward Qian</h1>
         <h4>Trainee 4 Lead</h4>
         <div class="icons">
           <a href="#">
             <img src="img/linkedin-icon.png" class="icon" />
           </a>
-          <a href="#">
+          <a href="https://github.com/jedwed/basic-profile-page">
             <img src="img/github-icon.png" class="icon" />
           </a>
           <a href="#">
@@ -27,11 +31,20 @@
           </a>
         </div>
         <div id="contact">
-          Email: osigj@gmail.com
+          <div class="contact-info">
+            <i class="fa fa-envelope contact-icon"></i>
+            <div class="contact-text">Email: osigj@gmail.com</div>
+          </div>
           <hr />
-          Phone: 0324u2394239847923
+          <div class="contact-info">
+            <i class="fa fa-phone contact-icon"></i>
+            <div class="contact-text">Phone: 0324u23942323</div>
+          </div>
           <hr />
-          FAX: hahahahahahah
+          <div class="contact-info">
+            <i class="fa fa-fax contact-icon"></i>
+            <div class="contact-text">FAX: hahahahahahah</div>
+          </div>
           <hr />
         </div>
       </div>
