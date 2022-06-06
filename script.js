@@ -5,6 +5,7 @@
 
 // A function that is called through 'onclick' property
 const display_secret = () => {
+  // Select the HTML element: <div id="secret">
   let secret = document.getElementById("secret");
   if (secret.style.display && secret.style.display !== "none") {
     secret.style.display = "none";

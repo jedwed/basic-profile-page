@@ -88,6 +88,7 @@ body {
   display: flex;
 }
 
+/* Setting flex: 1 on both containers in the flexbox makes them an equal size */
 #skills-container {
   flex: 1;
   /* background: yellow; */
@@ -114,6 +115,7 @@ body {
   background-color: rgb(42, 98, 117);
 }
 
+/* secret is originally hidden with 'display: none', can be toggled with a button */
 #secret {
   margin-top: 1vh;
   display: none;
