@@ -83,3 +83,38 @@ body {
   background-color: rgb(212, 226, 231);
   width: 70vw;
 }
+
+#more-about-me {
+  display: flex;
+}
+
+#skills-container {
+  flex: 1;
+  /* background: yellow; */
+}
+
+#secret-container {
+  flex: 1;
+}
+
+.button {
+  background-color: rgb(135, 190, 209);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 1vh 1vw;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: rgb(85, 141, 160);
+}
+
+.button:active {
+  background-color: rgb(42, 98, 117);
+}
+
+#secret {
+  margin-top: 1vh;
+  display: none;
+}
